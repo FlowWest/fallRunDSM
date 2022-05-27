@@ -12,7 +12,7 @@ vignette: >
 
 ## Frequently Asked Questions
 
-### Reository Structure
+### Repoitory Structure
 
 Q: Where is all the code for the model within the repository directory structure?
 
@@ -27,11 +27,10 @@ Q: Where are the details for model/sub-model parameters, calibration analysis, a
 A: The calibration, sensitivity analysis, and reference materials are found on the model documentation website, under the following links:
 
 -   [Fall-run documentation site](https://cvpia-osc.github.io/fallRunDSM)
--   [Spring]-run docume](https://cvpia-osc.github.io/spingRunDSM)
--   [Winter](ht-run tiote](hdocumentapia-osc.github.io/winterRunDSM)
--   [Late-](https://cvpia-osc.gfsite](https://cvpia-osc.github.io/latefallRunDSM)
-
-The Reference tab includes the details for model parameters, sub-models, datasets, and helper functions. The Articles tab contains the details regarding calibration and sensitivity analysis.
+-   [Spring]-n docume]nation site a](https://cvpispingRunDSM)
+-   [Winter](ht-run tiotdocc.giton sientacv>
+-   [Lae-](<httpspia-osc.github.io/winterRunDSM)
+-   [Late-fall-run documentation site.gsite>](httfall-run ithub.io/latefallRunDSM) model parameters, sub-models, datasets, and helper functions. The Articles tab contains the details regarding calibration and sensitivity analysis.
 
 Q: What is the code repository's analysis folder?
 
@@ -113,9 +112,9 @@ A: Version control is handled through GitHub. To install the latest versions of 
 remotes::install_github("cvpia-osc/fallRunDSM")
 ```
 
-To install a specific version of the model, first identify the branch associated
-with the release version (these use the tag v1.0, v1.1 and so on), then modify
-the install_github function call as follows:
+To install a specific version of the model, first identify the branch associated with the release version (these use the tag
+v1.0, v1.1 and so on), then modify the install_github function call as follows
+
 
 ```{r, eval = FALSE}
 remotes::install_github("cvpia-osc/fallRunDSM@v1.0")
@@ -125,15 +124,14 @@ Q: Can I use or modify the model for my own purposes?
 
 A: TODO add in disclaimer from Megan
 
-Q: I found something within the code or inputs that seems like an error, how can I
-notify model developers?
+Q: I found something within the code or inputs that seems like an error, how can I notify model developers?
 
-A: When you find an error, you can open an [issue on GitHub](https://github.com/CVhttps:/github.com/CVPIA-OSC/fallRunDSM/issuesPIA-OSC/fallRusection%20of%20the%20issue%20please%20descrinDSM/issues). In the comments section of the issue please describe the problem in detail, and ipfpossibl  apaste co tr produceeais errorde thaainers wills notified of this issue and
-communicate with youo t on the is
+A: When you find 
+n error, you can open an [issue on GitHub](https://github.com/CVhttps:/github.com/CVPIA-OSC/fallRunDSM/issuesPIA-OSC/fallRusection%20of%20the%20issue%20please%20descrinDSM/issues). In the comments section of the issue please describe the problem in detail, and ipfpossibl apaste co tr produceeais errorde ta ie s wielenified de that
+re that rs thues th c. Maintainers will be not
 
-Q: I haveue trackpag model saa on how to ie.
+Q: I heueipag mod and
+a on hocate with you on the isdata, how can r proposing changes to thetact the Science Comore information. models. Please conI
+dinatoe a?
 
-Q: I have an idecs or source data, how can  models. Please conCoordinator foI
-propose a change?
-
-A: The SIT has a process and template for proposing changes to thetact the Science Comore information.
+A: The SIT has a process and template for proposing changes to the models. Please contact the Science Coordinator for more information.
