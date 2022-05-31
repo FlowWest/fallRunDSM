@@ -55,7 +55,7 @@ A: The models (fallRunDSM, lateFallRunDSM, winterRunDSM, and springRunDSM) use d
 
 The package DSMscenario creates scenarios to show how Chinook salmon populations change depending on potential restoration actions. More information on scenario development can be found [here](https://cvpia-osc.github.io/DSMscenario/).
 
-![](images/dependencyChain.svg){width=100%}
+![](../man/figures/dependencyChain.svg){width=100%}
 
 ### Model Mechanics
 
